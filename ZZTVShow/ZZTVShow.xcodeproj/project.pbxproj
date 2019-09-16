@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF90B211232F9ECA0037A8DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF90B210232F9ECA0037A8DB /* AppDelegate.m */; };
+		FF90B214232F9ECA0037A8DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF90B213232F9ECA0037A8DB /* ViewController.m */; };
+		FF90B217232F9ECA0037A8DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF90B215232F9ECA0037A8DB /* Main.storyboard */; };
+		FF90B219232F9ECB0037A8DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF90B218232F9ECB0037A8DB /* Assets.xcassets */; };
+		FF90B21C232F9ECB0037A8DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF90B21A232F9ECB0037A8DB /* LaunchScreen.storyboard */; };
+		FF90B21F232F9ECB0037A8DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF90B21E232F9ECB0037A8DB /* main.m */; };
+		FF90B229232F9ECC0037A8DB /* ZZTVShowTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF90B228232F9ECC0037A8DB /* ZZTVShowTests.m */; };
+		FF90B234232F9ECC0037A8DB /* ZZTVShowUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF90B233232F9ECC0037A8DB /* ZZTVShowUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF90B225232F9ECC0037A8DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF90B204232F9ECA0037A8DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF90B20B232F9ECA0037A8DB;
+			remoteInfo = ZZTVShow;
+		};
+		FF90B230232F9ECC0037A8DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF90B204232F9ECA0037A8DB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF90B20B232F9ECA0037A8DB;
+			remoteInfo = ZZTVShow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF90B20C232F9ECA0037A8DB /* ZZTVShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZTVShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF90B20F232F9ECA0037A8DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF90B210232F9ECA0037A8DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF90B212232F9ECA0037A8DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FF90B213232F9ECA0037A8DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FF90B216232F9ECA0037A8DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF90B218232F9ECB0037A8DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF90B21B232F9ECB0037A8DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF90B21D232F9ECB0037A8DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF90B21E232F9ECB0037A8DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF90B224232F9ECC0037A8DB /* ZZTVShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZTVShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF90B228232F9ECC0037A8DB /* ZZTVShowTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTVShowTests.m; sourceTree = "<group>"; };
+		FF90B22A232F9ECC0037A8DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF90B22F232F9ECC0037A8DB /* ZZTVShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZTVShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF90B233232F9ECC0037A8DB /* ZZTVShowUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZTVShowUITests.m; sourceTree = "<group>"; };
+		FF90B235232F9ECC0037A8DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF90B209232F9ECA0037A8DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF90B221232F9ECC0037A8DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF90B22C232F9ECC0037A8DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF90B203232F9ECA0037A8DB = {
+			isa = PBXGroup;
+			children = (
+				FF90B20E232F9ECA0037A8DB /* ZZTVShow */,
+				FF90B227232F9ECC0037A8DB /* ZZTVShowTests */,
+				FF90B232232F9ECC0037A8DB /* ZZTVShowUITests */,
+				FF90B20D232F9ECA0037A8DB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF90B20D232F9ECA0037A8DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF90B20C232F9ECA0037A8DB /* ZZTVShow.app */,
+				FF90B224232F9ECC0037A8DB /* ZZTVShowTests.xctest */,
+				FF90B22F232F9ECC0037A8DB /* ZZTVShowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF90B20E232F9ECA0037A8DB /* ZZTVShow */ = {
+			isa = PBXGroup;
+			children = (
+				FF90B20F232F9ECA0037A8DB /* AppDelegate.h */,
+				FF90B210232F9ECA0037A8DB /* AppDelegate.m */,
+				FF90B212232F9ECA0037A8DB /* ViewController.h */,
+				FF90B213232F9ECA0037A8DB /* ViewController.m */,
+				FF90B215232F9ECA0037A8DB /* Main.storyboard */,
+				FF90B218232F9ECB0037A8DB /* Assets.xcassets */,
+				FF90B21A232F9ECB0037A8DB /* LaunchScreen.storyboard */,
+				FF90B21D232F9ECB0037A8DB /* Info.plist */,
+				FF90B21E232F9ECB0037A8DB /* main.m */,
+			);
+			path = ZZTVShow;
+			sourceTree = "<group>";
+		};
+		FF90B227232F9ECC0037A8DB /* ZZTVShowTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF90B228232F9ECC0037A8DB /* ZZTVShowTests.m */,
+				FF90B22A232F9ECC0037A8DB /* Info.plist */,
+			);
+			path = ZZTVShowTests;
+			sourceTree = "<group>";
+		};
+		FF90B232232F9ECC0037A8DB /* ZZTVShowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF90B233232F9ECC0037A8DB /* ZZTVShowUITests.m */,
+				FF90B235232F9ECC0037A8DB /* Info.plist */,
+			);
+			path = ZZTVShowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF90B20B232F9ECA0037A8DB /* ZZTVShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF90B238232F9ECC0037A8DB /* Build configuration list for PBXNativeTarget "ZZTVShow" */;
+			buildPhases = (
+				FF90B208232F9ECA0037A8DB /* Sources */,
+				FF90B209232F9ECA0037A8DB /* Frameworks */,
+				FF90B20A232F9ECA0037A8DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZZTVShow;
+			productName = ZZTVShow;
+			productReference = FF90B20C232F9ECA0037A8DB /* ZZTVShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF90B223232F9ECC0037A8DB /* ZZTVShowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF90B23B232F9ECC0037A8DB /* Build configuration list for PBXNativeTarget "ZZTVShowTests" */;
+			buildPhases = (
+				FF90B220232F9ECC0037A8DB /* Sources */,
+				FF90B221232F9ECC0037A8DB /* Frameworks */,
+				FF90B222232F9ECC0037A8DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF90B226232F9ECC0037A8DB /* PBXTargetDependency */,
+			);
+			name = ZZTVShowTests;
+			productName = ZZTVShowTests;
+			productReference = FF90B224232F9ECC0037A8DB /* ZZTVShowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF90B22E232F9ECC0037A8DB /* ZZTVShowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF90B23E232F9ECC0037A8DB /* Build configuration list for PBXNativeTarget "ZZTVShowUITests" */;
+			buildPhases = (
+				FF90B22B232F9ECC0037A8DB /* Sources */,
+				FF90B22C232F9ECC0037A8DB /* Frameworks */,
+				FF90B22D232F9ECC0037A8DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF90B231232F9ECC0037A8DB /* PBXTargetDependency */,
+			);
+			name = ZZTVShowUITests;
+			productName = ZZTVShowUITests;
+			productReference = FF90B22F232F9ECC0037A8DB /* ZZTVShowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF90B204232F9ECA0037A8DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "泽泽";
+				TargetAttributes = {
+					FF90B20B232F9ECA0037A8DB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					FF90B223232F9ECC0037A8DB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FF90B20B232F9ECA0037A8DB;
+					};
+					FF90B22E232F9ECC0037A8DB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = FF90B20B232F9ECA0037A8DB;
+					};
+				};
+			};
+			buildConfigurationList = FF90B207232F9ECA0037A8DB /* Build configuration list for PBXProject "ZZTVShow" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF90B203232F9ECA0037A8DB;
+			productRefGroup = FF90B20D232F9ECA0037A8DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF90B20B232F9ECA0037A8DB /* ZZTVShow */,
+				FF90B223232F9ECC0037A8DB /* ZZTVShowTests */,
+				FF90B22E232F9ECC0037A8DB /* ZZTVShowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF90B20A232F9ECA0037A8DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF90B21C232F9ECB0037A8DB /* LaunchScreen.storyboard in Resources */,
+				FF90B219232F9ECB0037A8DB /* Assets.xcassets in Resources */,
+				FF90B217232F9ECA0037A8DB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF90B222232F9ECC0037A8DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF90B22D232F9ECC0037A8DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF90B208232F9ECA0037A8DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF90B214232F9ECA0037A8DB /* ViewController.m in Sources */,
+				FF90B21F232F9ECB0037A8DB /* main.m in Sources */,
+				FF90B211232F9ECA0037A8DB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF90B220232F9ECC0037A8DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF90B229232F9ECC0037A8DB /* ZZTVShowTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF90B22B232F9ECC0037A8DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF90B234232F9ECC0037A8DB /* ZZTVShowUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF90B226232F9ECC0037A8DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF90B20B232F9ECA0037A8DB /* ZZTVShow */;
+			targetProxy = FF90B225232F9ECC0037A8DB /* PBXContainerItemProxy */;
+		};
+		FF90B231232F9ECC0037A8DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF90B20B232F9ECA0037A8DB /* ZZTVShow */;
+			targetProxy = FF90B230232F9ECC0037A8DB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF90B215232F9ECA0037A8DB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF90B216232F9ECA0037A8DB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF90B21A232F9ECB0037A8DB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF90B21B232F9ECB0037A8DB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF90B236232F9ECC0037A8DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF90B237232F9ECC0037A8DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF90B239232F9ECC0037A8DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKB2W89RHK;
+				INFOPLIST_FILE = ZZTVShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.ZZTVShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FF90B23A232F9ECC0037A8DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BKB2W89RHK;
+				INFOPLIST_FILE = ZZTVShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.ZZTVShow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FF90B23C232F9ECC0037A8DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZTVShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.ZZTVShowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZTVShow.app/ZZTVShow";
+			};
+			name = Debug;
+		};
+		FF90B23D232F9ECC0037A8DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZTVShowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.ZZTVShowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZZTVShow.app/ZZTVShow";
+			};
+			name = Release;
+		};
+		FF90B23F232F9ECC0037A8DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZTVShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.ZZTVShowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZTVShow;
+			};
+			name = Debug;
+		};
+		FF90B240232F9ECC0037A8DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ZZTVShowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.ZZTVShowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ZZTVShow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF90B207232F9ECA0037A8DB /* Build configuration list for PBXProject "ZZTVShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF90B236232F9ECC0037A8DB /* Debug */,
+				FF90B237232F9ECC0037A8DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF90B238232F9ECC0037A8DB /* Build configuration list for PBXNativeTarget "ZZTVShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF90B239232F9ECC0037A8DB /* Debug */,
+				FF90B23A232F9ECC0037A8DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF90B23B232F9ECC0037A8DB /* Build configuration list for PBXNativeTarget "ZZTVShowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF90B23C232F9ECC0037A8DB /* Debug */,
+				FF90B23D232F9ECC0037A8DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF90B23E232F9ECC0037A8DB /* Build configuration list for PBXNativeTarget "ZZTVShowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF90B23F232F9ECC0037A8DB /* Debug */,
+				FF90B240232F9ECC0037A8DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF90B204232F9ECA0037A8DB /* Project object */;
+}
