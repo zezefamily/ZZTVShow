@@ -1,2 +1,2 @@
 # ZZTVShow
-小锅的 --(基于VLCMobileKit)
+小锅的 --基于VLCMobileKit
