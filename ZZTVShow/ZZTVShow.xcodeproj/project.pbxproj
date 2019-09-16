@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22180B788EE975DEBA7D7C97 /* libPods-ZZTVShow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 606CF365469AA66C02452014 /* libPods-ZZTVShow.a */; };
+		4B8DE140182BD797E7DBD8A6 /* libPods-ZZTVShowTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB0A78B253653846818BD2A /* libPods-ZZTVShowTests.a */; };
+		B32BEF3C6975256B21C3BD12 /* libPods-ZZTVShowUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4832215156BEE0125A50D5E8 /* libPods-ZZTVShowUITests.a */; };
 		FF90B211232F9ECA0037A8DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF90B210232F9ECA0037A8DB /* AppDelegate.m */; };
 		FF90B214232F9ECA0037A8DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF90B213232F9ECA0037A8DB /* ViewController.m */; };
 		FF90B217232F9ECA0037A8DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF90B215232F9ECA0037A8DB /* Main.storyboard */; };
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DB0A78B253653846818BD2A /* libPods-ZZTVShowTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZTVShowTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34A215D532CC8BC925C44231 /* Pods-ZZTVShowUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZTVShowUITests.release.xcconfig"; path = "Target Support Files/Pods-ZZTVShowUITests/Pods-ZZTVShowUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4832215156BEE0125A50D5E8 /* libPods-ZZTVShowUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZTVShowUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C60FAA0683106C5E43BF520 /* Pods-ZZTVShow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZTVShow.release.xcconfig"; path = "Target Support Files/Pods-ZZTVShow/Pods-ZZTVShow.release.xcconfig"; sourceTree = "<group>"; };
+		4F735413C6FF27C32317620C /* Pods-ZZTVShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZTVShow.debug.xcconfig"; path = "Target Support Files/Pods-ZZTVShow/Pods-ZZTVShow.debug.xcconfig"; sourceTree = "<group>"; };
+		606CF365469AA66C02452014 /* libPods-ZZTVShow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZZTVShow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5028B5006F8E147AEC365FD /* Pods-ZZTVShowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZTVShowUITests.debug.xcconfig"; path = "Target Support Files/Pods-ZZTVShowUITests/Pods-ZZTVShowUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED9DFA8788DF24DAB361AE5F /* Pods-ZZTVShowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZTVShowTests.debug.xcconfig"; path = "Target Support Files/Pods-ZZTVShowTests/Pods-ZZTVShowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F34D6C99000BE1FB62F46EC2 /* Pods-ZZTVShowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZZTVShowTests.release.xcconfig"; path = "Target Support Files/Pods-ZZTVShowTests/Pods-ZZTVShowTests.release.xcconfig"; sourceTree = "<group>"; };
 		FF90B20C232F9ECA0037A8DB /* ZZTVShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZTVShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF90B20F232F9ECA0037A8DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF90B210232F9ECA0037A8DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22180B788EE975DEBA7D7C97 /* libPods-ZZTVShow.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B8DE140182BD797E7DBD8A6 /* libPods-ZZTVShowTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B32BEF3C6975256B21C3BD12 /* libPods-ZZTVShowUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BBEA1FBC75C794885C689A1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				606CF365469AA66C02452014 /* libPods-ZZTVShow.a */,
+				0DB0A78B253653846818BD2A /* libPods-ZZTVShowTests.a */,
+				4832215156BEE0125A50D5E8 /* libPods-ZZTVShowUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7FBE82D4BD6D1A997B1099F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F735413C6FF27C32317620C /* Pods-ZZTVShow.debug.xcconfig */,
+				4C60FAA0683106C5E43BF520 /* Pods-ZZTVShow.release.xcconfig */,
+				ED9DFA8788DF24DAB361AE5F /* Pods-ZZTVShowTests.debug.xcconfig */,
+				F34D6C99000BE1FB62F46EC2 /* Pods-ZZTVShowTests.release.xcconfig */,
+				E5028B5006F8E147AEC365FD /* Pods-ZZTVShowUITests.debug.xcconfig */,
+				34A215D532CC8BC925C44231 /* Pods-ZZTVShowUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FF90B203232F9ECA0037A8DB = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +124,8 @@
 				FF90B227232F9ECC0037A8DB /* ZZTVShowTests */,
 				FF90B232232F9ECC0037A8DB /* ZZTVShowUITests */,
 				FF90B20D232F9ECA0037A8DB /* Products */,
+				F7FBE82D4BD6D1A997B1099F /* Pods */,
+				BBEA1FBC75C794885C689A1E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -139,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF90B238232F9ECC0037A8DB /* Build configuration list for PBXNativeTarget "ZZTVShow" */;
 			buildPhases = (
+				298D2881AD943AA988D86614 /* [CP] Check Pods Manifest.lock */,
 				FF90B208232F9ECA0037A8DB /* Sources */,
 				FF90B209232F9ECA0037A8DB /* Frameworks */,
 				FF90B20A232F9ECA0037A8DB /* Resources */,
@@ -156,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF90B23B232F9ECC0037A8DB /* Build configuration list for PBXNativeTarget "ZZTVShowTests" */;
 			buildPhases = (
+				235ABF23E6423C12F64588C0 /* [CP] Check Pods Manifest.lock */,
 				FF90B220232F9ECC0037A8DB /* Sources */,
 				FF90B221232F9ECC0037A8DB /* Frameworks */,
 				FF90B222232F9ECC0037A8DB /* Resources */,
@@ -174,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF90B23E232F9ECC0037A8DB /* Build configuration list for PBXNativeTarget "ZZTVShowUITests" */;
 			buildPhases = (
+				24032C291E5616AAB84722BC /* [CP] Check Pods Manifest.lock */,
 				FF90B22B232F9ECC0037A8DB /* Sources */,
 				FF90B22C232F9ECC0037A8DB /* Frameworks */,
 				FF90B22D232F9ECC0037A8DB /* Resources */,
@@ -256,6 +300,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		235ABF23E6423C12F64588C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZTVShowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		24032C291E5616AAB84722BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZTVShowUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		298D2881AD943AA988D86614 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZZTVShow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FF90B208232F9ECA0037A8DB /* Sources */ = {
@@ -433,6 +546,7 @@
 		};
 		FF90B239232F9ECC0037A8DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F735413C6FF27C32317620C /* Pods-ZZTVShow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -451,6 +565,7 @@
 		};
 		FF90B23A232F9ECC0037A8DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C60FAA0683106C5E43BF520 /* Pods-ZZTVShow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +584,7 @@
 		};
 		FF90B23C232F9ECC0037A8DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED9DFA8788DF24DAB361AE5F /* Pods-ZZTVShowTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -487,6 +603,7 @@
 		};
 		FF90B23D232F9ECC0037A8DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F34D6C99000BE1FB62F46EC2 /* Pods-ZZTVShowTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +622,7 @@
 		};
 		FF90B23F232F9ECC0037A8DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5028B5006F8E147AEC365FD /* Pods-ZZTVShowUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZZTVShowUITests/Info.plist;
@@ -522,6 +640,7 @@
 		};
 		FF90B240232F9ECC0037A8DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34A215D532CC8BC925C44231 /* Pods-ZZTVShowUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ZZTVShowUITests/Info.plist;
